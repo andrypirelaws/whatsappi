@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-ai-platform",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "reactflow": "11.10.4",
+    "mongoose": "8.1.0",
+    "openai": "4.28.0",
+    "axios": "1.6.5",
+    "date-fns": "3.3.1",
+    "recharts": "2.10.3",
+    "react-hot-toast": "2.4.1"
+  }
+}

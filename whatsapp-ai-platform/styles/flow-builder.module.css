@@ -1,0 +1,80 @@
+.flowEditor {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.flowNameInput {
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 8px;
+}
+
+.headerActions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.badge.active {
+    background: #d4f4dd;
+    color: #0a6e2e;
+}
+
+.badge.paused {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.badge.draft {
+    background: #e0e0e0;
+    color: #666;
+}
+
+.saveBtn {
+    background: #25d366;
+    color: white;
+}
+
+.toggleBtn {
+    background: #007bff;
+    color: white;
+}
+
+.closeBtn {
+    background: #f0f0f0;
+    color: #333;
+}
+
+.canvasContainer {
+    flex: 1;
+    position: relative;
+}
+
+.infoPanel {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+}

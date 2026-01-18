@@ -1,0 +1,53 @@
+.node {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    min-width: 180px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+}
+
+.node:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.node.trigger {
+    border-color: #4caf50;
+}
+
+.node.message {
+    border-color: #2196f3;
+}
+
+.node.ai {
+    border-color: #ff9800;
+    background: linear-gradient(135deg, #fff 0%, #fff8e1 100%);
+}
+
+.node.condition {
+    border-color: #9c27b0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.content {
+    font-size: 12px;
+    color: #666;
+}
+
+.content p {
+    margin: 0;
+}
+
+.content small {
+    display: block;
+    margin-top: 4px;
+}

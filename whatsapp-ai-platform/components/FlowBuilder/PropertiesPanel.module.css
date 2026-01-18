@@ -1,0 +1,63 @@
+.panel {
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    max-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.closeBtn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.content {
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.content label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content input,
+.content textarea,
+.content select {
+    margin-top: 5px;
+}
+
+.content small {
+    display: block;
+    margin-top: 5px;
+    color: #667781;
+    font-size: 12px;
+}
